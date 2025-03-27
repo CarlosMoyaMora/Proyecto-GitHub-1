@@ -12,12 +12,13 @@ sin necesidad de acceder a los módulos individuales.
 # __init__.py dentro del paquete analisis_datos
 
 # Importamos las funciones 'media' y 'mediana' desde el módulo 'estadisticas' ubicado en el mismo paquete.
-
+from .carga_datos import generar_lista_compras
 
 
 # Importamos las funciones 'generar_lista_compras' y 'guardar_lista_compras' desde el módulo 'carga_datos' ubicado en el mismo paquete.
-
+from .estadisticas import media,mediana
 
 
 # Definimos la lista '__all__' para especificar qué nombres serán exportados cuando se use 'from analisis_datos import *'.
 
+__all__ = ['generar_lista_compras', 'media', 'mediana']
