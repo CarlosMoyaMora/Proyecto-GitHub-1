@@ -1,2 +1,3 @@
-# Proyecto-GitHub-1
- Este repositorio contiene una estructura base para proyectos en Python
+# Class05_Archivos_Modularizacion_Python
+ Gestión de Archivos y Modularización en Python
+ Prof. Andrés Mena Abarca
