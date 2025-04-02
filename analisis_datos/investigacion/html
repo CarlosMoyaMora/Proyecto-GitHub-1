@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Noticias del día</title>
+</head>
+<body>
+  <div class="news-item">
+    <h2 class="headline">Titular 1: Noticia importante</h2>
+    <p>Descripción breve de la noticia.</p>
+  </div>
+  <div class="news-item">
+    <h2 class="headline">Titular 2: Otra noticia importante</h2>
+    <p>Descripción breve de otra noticia.</p>
+  </div>
+  <div class="news-item">
+    <h2 class="headline">Titular 3: Noticia interesante</h2>
+    <p>Descripción breve de una noticia interesante.</p>
+  </div>
+</body>
+</html>
